@@ -5,8 +5,7 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score
-from tensorflow import keras
-import tensorflow as tf
+
 
 
 
@@ -28,8 +27,6 @@ for color in ['blue', 'green', 'red', 'yellow']:
                 data.append(hist)
 
                 labels.append(color)
-
-print(data)
 
 # Split the dataset
 X_train, X_test, y_train, y_test = train_test_split(data, labels, test_size=0.2)
