@@ -31,7 +31,7 @@ UNO_card_detector.py using the dataset & webcam
 `3.   SKIP_Y`
 
 ```
-python3 uUNO_card_detector.py --images dataset --input image.jpg --mode staticimg
+python3 uUNO_card_detector.py --images Main_Dataset --input image.jpg --mode staticimg
   
 ```
 
