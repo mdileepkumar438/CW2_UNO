@@ -5,10 +5,10 @@ import numpy as np
 def find_number_contour(img):
   # Do adaptive threshold to find the contours
   gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
-  gray = cv.GaussianBlur(gray, (1, 7), 0)
+  gray = cv.GaussianBlur(gray, (7, 7), 0)
   th = cv.adaptiveThreshold(gray, 255,
       cv.ADAPTIVE_THRESH_GAUSSIAN_C,
-      cv.THRESH_BINARY, 11, 11)
+      cv.THRESH_BINARY, 11, 2)
 
   # Get negative to find contours
   th = 255 - th 
@@ -16,7 +16,7 @@ def find_number_contour(img):
   # Some colors might not get clearly defined
   # during adaptive threshold. To fill any holes,
   # we do a morphological dilation
-  kernel = np.ones((3, 5), np.uint8)
+  kernel = np.ones((3, 3), np.uint8)
   th = cv.morphologyEx(th, cv.MORPH_DILATE, kernel)
 
   # Only find the external contour, the number in the
@@ -40,8 +40,5 @@ def find_number_contour(img):
 
   closest_idx = np.argmin([np.linalg.norm(c - center) for c in contour_centers])
   cnt = contours[closest_idx]
-
-  # cnt is the number coutour
-
-
+  
   return cnt
