@@ -11,6 +11,7 @@ Please visit My GitHub profile to access the link. [https://github.com/mdileepku
 #
 
 
+
 ## The program can be run with the following command-line arguments:
 ```
 Main file 
@@ -56,10 +57,11 @@ matplotli --- 'pip install matplotlib'
 ```
 #
 
-Below Image is the glance of the Physical project using webcam
+This image provides a glimpse of the physical project utilizing a webcam.
 
+![WhatsApp Image 2023-04-28 at 10 52 11 PM](https://user-images.githubusercontent.com/102908088/235231974-72d0a3b6-1479-489e-95cb-e80ee1648458.jpeg)
 
-
+![WhatsApp Image 2023-04-28 at 10 52 12 PM](https://user-images.githubusercontent.com/102908088/235232012-8586b651-8e9d-4aa4-8235-2c462fb62ab0.jpeg)
 
 # Workflow of the Project
 ## 1. Color_estimation.py
