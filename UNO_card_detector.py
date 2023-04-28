@@ -118,8 +118,9 @@ train_h, train_w = images[0].shape[:2]
 for i in range(len(images)):
   card_imgs, _ = find_cards(images[i])
   if len(card_imgs) != 1:
+    pass
     # Multiple or zero cards detected in train data image
-    print(f"Incorrect number of cards detected in {fns[i]}!")
+    #print(f"Incorrect number of cards detected in {fns[i]}!")
   else:
     # Found one image, save it
     images[i] = card_imgs[0]
