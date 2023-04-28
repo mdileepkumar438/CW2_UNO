@@ -10,6 +10,35 @@ You can watch a demo of this project in action on my YouTube channel: In the vid
 Please visit My GitHub profile to access the link. [https://github.com/mdileepkumar438/CW2_UNO]
 #
 
+
+## The program can be run with the following command-line arguments:
+```
+Main file 
+UNO_card_detector.py using the dataset & webcam 
+```
+
+
+* To run using Dataset images:
+
+`Example input names:`
+
+`1.   ZERO_B`
+
+`2.   TWO_B_DRAW`
+
+`3.   SKIP_Y`
+
+```
+python3 uUNO_card_detector.py --images dataset --input image.jpg --mode staticimg
+  
+```
+
+* To run script using the live cam (webcam): `Default camdevice(0)`
+
+```
+python3 UNO_card_detector.py --images Main_Dataset --camdevice 0 --mode livecam
+```
+
 ## Notes:
 
 1. "Main_Dataset" is the name of the folder that contains the data set “UNO cards Images”
@@ -26,6 +55,12 @@ argparse --- 'pip install argparse'
 matplotli --- 'pip install matplotlib'
 ```
 #
+
+Below Image is the glance of the Physical project using webcam
+
+
+
+
 # Workflow of the Project
 ## 1. Color_estimation.py
 
@@ -102,31 +137,4 @@ d- ('--input', type=str, default='', help="Input image for detection")
 #
 #
 
-## The program can be run with the following command-line arguments:
-```
-Main file 
-UNO_card_detector.py using the dataset & webcam 
-```
-
-
-* To run using Dataset images:
-
-`Example input names:`
-
-`1.   ZERO_B`
-
-`2.   TWO_B_DRAW`
-
-`3.   SKIP_Y`
-
-```
-python3 uUNO_card_detector.py --images dataset --input image.jpg --mode staticimg
-  
-```
-
-* To run script using the live cam (webcam): `Default camdevice(0)`
-
-```
-python3 UNO_card_detector.py --images Main_Dataset --camdevice 0 --mode livecam
-```
     
