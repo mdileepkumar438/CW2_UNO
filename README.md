@@ -1,4 +1,4 @@
-# CW2_UNO_UNO-CARDS-DETECTOR-PDE4434
+# CW2_UNO-CARDS-DETECTOR-PDE4434
 
 The objective of this coursework is to develop a software that can identify UNO cards from either an image or a frame by utilizing information from a dataset or a standard camera, such as a webcam.
 
