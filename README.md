@@ -58,11 +58,22 @@ matplotli --- 'pip install matplotlib'
 ```
 #
 
-This image provides a glimpse of the physical project utilizing a webcam.
+* This image provides a glimpse of the physical project utilizing a webcam.
 
 ![WhatsApp Image 2023-04-28 at 10 52 11 PM](https://user-images.githubusercontent.com/102908088/235231974-72d0a3b6-1479-489e-95cb-e80ee1648458.jpeg)
 
 ![WhatsApp Image 2023-04-28 at 10 52 12 PM](https://user-images.githubusercontent.com/102908088/235232012-8586b651-8e9d-4aa4-8235-2c462fb62ab0.jpeg)
+
+
+<img width="950" alt="Screenshot 2023-04-28 at 10 22 28 PM" src="https://user-images.githubusercontent.com/102908088/235239292-1025874c-77da-42b1-aa67-992ed5a1dd9e.png">
+
+* Using Static Image 
+
+<img width="413" alt="Screenshot 2023-04-28 at 11 16 12 PM" src="https://user-images.githubusercontent.com/102908088/235240044-43a99820-eede-4b56-96ce-600acb1f5478.png">
+
+
+
+
 
 # Workflow of the Project
 ## 1. Color_estimation.py
@@ -140,4 +151,19 @@ d- ('--input', type=str, default='', help="Input image for detection")
 #
 #
 
-    
+References:
+
+* here are the references for the libraries used in the code:
+
+1. OpenCV - https://opencv.org/
+2. Numpy - https://numpy.org/
+3. argparse - https://docs.python.org/3/library/argparse.html
+4. glob - https://docs.python.org/3/library/glob.html
+5. os - https://docs.python.org/3/library/os.html
+
+
+Here are some additional links related to UNO card detection:
+
+1. UNO card game - https://en.wikipedia.org/wiki/Uno_(card_game)
+2. Object detection with OpenCV - https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning/
+3. PLaying Cards Detection - https://github.com/EdjeElectronics/OpenCV-Playing-Card-Detector    
