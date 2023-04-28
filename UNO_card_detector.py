@@ -151,7 +151,6 @@ if args.mode == "livecam":
   # Open camera, pick the default source
   cap = cv.VideoCapture(args.camdevice)
 
-
   #------------------------------------
   # Camera process loop
   while cap.isOpened():
@@ -168,7 +167,6 @@ if args.mode == "livecam":
       break
 
   cap.release()
-
 
 elif args.mode == "staticimg":
   frame = cv.imread(args.input)
