@@ -5,9 +5,10 @@ The objective of this coursework is to develop a software that can identify UNO 
 #
 ## Demo
 
-You can watch a demo of this project in action on my YouTube channel: In the video, I demonstrate how the software can identify UNO cards from both images and live camera feeds using computer vision techniques. I also provide a step-by-step guide on how to run the program with the provided dataset or your own images.
+You can watch a demo of this project in action on my YouTube channel:[https://youtu.be/FOBK394PFFI] In the video, I demonstrate how the software can identify UNO cards from both images and live camera feeds using computer vision techniques. I also provide a step-by-step guide on how to run the program with the provided dataset or your own images.
 
 Please visit My GitHub profile to access the link. [https://github.com/mdileepkumar438/CW2_UNO]
+
 #
 
 
